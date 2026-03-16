@@ -22,6 +22,7 @@
 .footer-col {
 	gap:60px;
 	margin-bottom: 30px;
+ 
 }
 
 .footer-col h4 {
@@ -29,35 +30,57 @@
   font-size: 18px;
 }
 
-/* Logo section */
+/* Logo Section */
 .footer-logo {
   display: flex;
-  align-items: center;
-  gap: 12px;
-  margin-bottom: 15px;
+  align-items: flex-start;
+  gap: 15px;
 }
 
-.logo-circle {
-  width: 45px;
-  height: 45px;
-  background: linear-gradient(to right, #22d3ee, #4ade80);
-  border-radius: 50%;
+.logo-circle-2 img {
+  width: 100%;
+  height: 100%;
+  object-fit:hidden;
+  object-position: center 3.5px ;
+  object-position: 1px 2px 3px 1px;
+ 
+}
+.footer-logo-2 {
+width: 80%;
+height: auto;
+}
+
+.footer-text h3{
+ margin: 0;
+ font-size: 40px;
+ color: white;
+ margin-top: 19px;
+}
+
+.logo-circle-2 {
+  width: 65px;
+  height: 65px;
+  border-radius: 100px;
+  overflow: hidden;
+  background: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: bold;
+  flex-shrink:0;
+  margin-top: 20px;
 }
 
 .footer-rating {
   color: #facc15;
   font-size: 14px;
+  margin-top: 7px;
+  
 }
 
 .footer-col p {
-  color: #cbd5e1;
-  font-size: 14px;
-  line-height: 1.6;
-  margin: 15px 0;
+font-size: 16px;
+color: #cbd5e1;
+margin: 90px 0 5px ;
 }
 
 /* Links */
@@ -74,12 +97,20 @@
 	margin-right: 10px;
 }
 
+.footer-col h4 {
+  font-size: 25px;
+}
+
+
+.service-list ul{
+  font-size: 45px;
+}
+
 
 .footer-col ul{
    list-style: none;
    padding: 0;
    margin: 0;
-   
 }
 
 
@@ -87,6 +118,7 @@
 .footer-col ul li a{
 color: rgb(142, 140, 140);
 text-decoration: none;
+font-size: 20px;
 }
 
 .footer-col ul li {
@@ -94,7 +126,7 @@ text-decoration: none;
   color: #4e5052;
   cursor: pointer;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .footer-col ul li:hover {
@@ -118,12 +150,18 @@ text-decoration: none;
 }
 
 .top h3{
-  font-size: 23px;
+  font-size: 30px;
+  margin-left: 80px;
+ 
 }
 
-.logo-circle {
-  margin-bottom: 13px;
+.footer-rating {
+ margin-left: 35px;
 }
+
+
+/*  logo */
+
 
 .icon {
   font-size: 16px;
@@ -136,6 +174,9 @@ text-decoration: none;
 .social-icons {
   display: flex;
   gap: 15px;
+  margin-top: 25px;
+  margin-left: 40px;
+  font-size: 28px;
 }
 
 .social-icons svg {
@@ -185,11 +226,15 @@ text-decoration: none;
 .service-list li::before {
   background: #4ade80;
 }
-
+.footer-links {
+  font-size: 20px;
+}
 .contact-item a{
   text-decoration: none;
   color: rgb(160, 160, 160);
 }
+
+
 
 
 /* Responsive */
@@ -198,9 +243,9 @@ text-decoration: none;
   .footer-container {
 	display: flex;
 	flex-direction: column;
-    align-items: flex-start;
+  align-items: flex-start;
 	text-align: left;
-    gap: 30px;
+  gap: 10px;
 	padding: 0px 20px;
   }
 
@@ -217,14 +262,14 @@ text-decoration: none;
 	color: #929292;
   }
 
-
-
-  .footer h4{
+   .footer h4{    /*quick links */
 	font-size: 25px;
   }
-  .top h3{
-    font-size: 28px;
-	margin-top: 40px;
+
+  
+  .footer-text h3{
+  font-size: 30px;
+	margin-top: 20px;
   }
   .logo-circle {
   margin-bottom: 23px;
@@ -232,7 +277,8 @@ text-decoration: none;
 
 
 .footer-col p {
-  font-size: 20px;
+  font-size: 14px;
+  top: 20px;
 }
 
   .footer-logo {
@@ -254,7 +300,6 @@ text-decoration: none;
   
   }
 
-
  .service-list :before,
   .services-list :before{
 	content:"";
@@ -266,12 +311,26 @@ text-decoration: none;
 	margin-right: 10px;
 }
 
- 
-
-
 .contact-item {
 font-size: 19px;
 }
+/* footer logo */
 
+.footer-logo {
+  height: 40px;
+}
+
+
+.footer-text span{
+  font-size: 15px;
+  margin-right: 20px;
+}
+
+
+
+.logo-circle-2 {
+  width: 50px;
+  height: 50px;
+}
 
 }

@@ -1,10 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
+import { useEffect } from "react";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import WhatsAppButton from "./components/WhatsAppButton";
 
 import Home from "./pages/Home";
 import DoctorsPage from "./pages/DoctorsPage";
@@ -16,6 +16,11 @@ import "./App.css";
 
 
 function App() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   return (
     <Router>
       <Helmet>
@@ -34,10 +39,10 @@ function App() {
         <Route path="/services" element={<ServicesPage />} />
         <Route path="/awards" element={<AwardsPage />} />
         <Route path="/contact" element={<ContactPage />} />
+       
       </Routes>
 
       <Footer />
-      <WhatsAppButton />
     </Router>
   );
 }

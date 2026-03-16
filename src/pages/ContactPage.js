@@ -1,9 +1,16 @@
 import React from "react";
 import "./ContactPage.css";
+import { useEffect } from "react";
+
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 
 function ContactPage() {
+
+
+   useEffect(() => {
+      window.scroll(0,0);
+    }, []);
 
 
 const form = useRef();

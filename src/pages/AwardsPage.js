@@ -1,6 +1,6 @@
 import React from "react";
 import "./AwardsPage.css";
-
+import { useEffect } from "react";
 
 import award1 from "../assets/award1.jpg";
 import award2 from "../assets/award2.jpg";
@@ -10,6 +10,12 @@ import award5 from "../assets/award5.jpg";
 import award6 from "../assets/award6.jpg";
 
 function AwardsPage() {
+
+   useEffect(() => {
+      window.scroll(0,0);
+    }, []);
+
+
   return (
     <section className="awards-section">
 

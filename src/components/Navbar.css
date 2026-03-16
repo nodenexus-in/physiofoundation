@@ -1,11 +1,13 @@
 .navbar {
+  
   width: 100%;
-  background: white;
-  padding: 15px 0;
+  background: rgb(255, 255, 255);
+  padding: 15px 5px 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   z-index: 1000;
   top:0;
   position:fixed;
+  min-height:40px
 }
 
 .nav-container {
@@ -21,19 +23,35 @@
 .logo-section {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
+}
+
+.logo-circle img {
+  width: 140%;
+  height: 100%;
+  object-fit:cover;
+  object-position: center 3px;
+ 
+}
+.footer-logo {
+border-radius: 0%;
+margin-bottom: 10px;
+width: 60px;
+height: 60px;
 }
 
 .logo-circle {
-  width: 45px;
-  height: 45px;
-  background-color: #2b7a78;
-  color: white;
-  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  /* border-radius:50%; */
+  overflow: hidden;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  border: 0px solid #e5e7eb;
   justify-content: center;
-  font-weight: bold;
+  background: #ffffff;
+  margin-top: 12px;  /* move logo slightly. */
+  margin-bottom: 20px;
 }
 
 .logo-text h2 {
@@ -62,6 +80,7 @@
   font-size: 18px;
 }
 
+
 .nav-links a.active {
   color: #2b7a78;
 }
@@ -85,7 +104,7 @@ width: 100%;
 /* Buttons */
 .nav-buttons {
   display: flex;
-  gap: 15px;
+  gap: 10px;
 }
 
 .call-btn {
@@ -95,6 +114,7 @@ width: 100%;
   color: #2b7a78;
   border-radius: 6px;
   cursor: pointer;
+  font-size: 14px;
 }
 
 .book-btn {
@@ -104,6 +124,7 @@ width: 100%;
   color: white;
   border-radius: 6px;
   cursor: pointer;
+  font-size: 17px;
 }
 
 
@@ -134,7 +155,7 @@ width: 100%;
 
   .menu-icon{
     display: block;
-    font-size: 28px;
+    font-size: 25px;
   }
 
   .navbar {
@@ -173,6 +194,10 @@ width: 100%;
 /* Small Mobile */
 @media (max-width: 480px){
 
+  .navbar {
+    background:#ffffff;
+  }
+
   .logo-text h2{
     font-size: 16px;
   }
@@ -189,7 +214,7 @@ width: 100%;
   }
 
   .logo-section h2 {
-    font-size: 25px;
+    font-size: 17px;
   }
 
 }

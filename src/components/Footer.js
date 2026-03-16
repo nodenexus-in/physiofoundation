@@ -4,6 +4,7 @@ import { FiPhone } from "react-icons/fi";
 import { BsClock } from "react-icons/bs";
 import "./Footer.css";
 import { Link } from "react-router-dom";
+import logos from "../assets/LOGO.jpeg";
 
 function Footer() {
   return (
@@ -12,12 +13,17 @@ function Footer() {
 
         {/* Column 1 */}
         <div className="footer-col">
+
           <div className="footer-logo">
-            <div className="logo-circle">PF</div>
-            <div className="top">
+          <div className="logo-circle-2">
+            <img src={logos} alt= "physio Foundation Logo" className="footer-logo-2"/>
+          </div>
+            <div className="footer-text">
               <h3>Physio Foundation</h3>
+              
+             
               <div className="footer-rating">
-                ★★★★★ <span>5.0 (198)</span>
+               <span>★★★★★5.0(300+)</span>
               </div>
             </div>
           </div>

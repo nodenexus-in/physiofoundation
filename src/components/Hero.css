@@ -1,20 +1,42 @@
 .hero {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-top: -60px;
-  padding: 20px 5%;
-  background: linear-gradient(to right, #f5fbff, #ffffff);
-  min-height: 90vh;
-  flex-wrap: wrap;
+  justify-content: flex-start;
+/* 
+  min-height: 100vh; */
+  height: 820px;
+  padding: 80px 8%;
+  margin-top: -110px;
   padding-top: 110px;
+
+  background-image:url(../assets/doc.jpg);
+  background-size: cover;
+  background-position: left center;
+  background-repeat: no-repeat;
+
+  position: relative;
+  overflow: hidden;
 }
+
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:rgba(255, 255, 255, 0.1) ;
+  z-index:1;
+}
+
+
+
 
 /* LEFT SIDE */
 
 .hero-left {
-  flex: 1;
-  min-width: 320px;
+ position: relative;
+ z-index:  2;
+ max-width: 550;
+
 }
 
 
@@ -98,11 +120,35 @@
   text-align: center;
 }
 
-.hero-right img {
-  width: 100%;
+.hero-right {
+  /* width: 100%;
   max-width: 700px;
   border-radius: 20px;
-  margin-top: 20px;
+  margin-top: 20px; */
+  position: relative;
+}
+.hero-right img {
+ width: 100%;
+ height: auto;
+ border-radius: 20px;
+ display: block;
+}
+
+.hero-right::before {
+  content: "";
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height:100%;
+
+  background: linear-gradient(
+    to right,
+    rgba(249,250,251,0.9) 15%,
+    rgba(249,250,251,0.6) 30%,
+    rgba(249,250,251,0.6) 45%,
+    transparent 60%
+  );
 }
 
 /* FLOATING CARD */
@@ -131,12 +177,13 @@
   .hero {
     flex-direction: column;
     padding: 60px 20px;
-    padding-top: 230px;
+    padding-top: 250px;
+    min-height: 200px;
   }
 
   .hero
   .hero-left h1 {
-    font-size: 32px;
+    font-size: 25px;
     margin-top: -20px;
  
   }
@@ -146,12 +193,12 @@
   }
 
   .hero-left h3 {
-  margin-top: -10px;
+  margin-top: 150px;
 }
 
 .hero-left p {
  align-items: flex-start;
-font-size: 20px;
+font-size: 17px;
 }
   
   .hero-buttons {
@@ -173,10 +220,9 @@ font-size: 20px;
  .rating-badge {
   position: absolute;
   font-size: 15px;
-  top: 20px;
-  left: 20px;
-  margin-bottom: -10px;
-  margin-top: 80px;
+  left: 0px;
+  bottom: -10px;
+  
  } 
 
 }

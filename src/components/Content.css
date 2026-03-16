@@ -5,6 +5,11 @@
   justify-content: center;
   display: flex;
 
+  background-image:url(../assets/copy.jpg);
+  background-size: cover;
+  background-position: left center;
+  background-repeat: no-repeat;
+
 }
 
 /* White Container Card */

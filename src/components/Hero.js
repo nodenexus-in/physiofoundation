@@ -1,19 +1,30 @@
 import React from "react";
 import "./Hero.css";
-import aboutImg from "../assets/About.jpeg";
+import { useEffect } from "react";
+import { Link } from "react-router-dom";
+// import aboutImg from "../assets/About.jpeg";
+import aboutImg from "../assets/physio.jpg";
+
 
 function Hero() {
+
+
+   useEffect(() => {
+      window.scroll(0,0);
+    }, []);
+
+
   return (
     <section className="hero">
 
       <div className="hero-left">
 
         <div className="rating-badge">
-          ⭐ 5.0 Rating • 198 Reviews
+          ⭐ 5.0 Rating • 300+ Reviews
         </div>
 
         <h1>
-          Expert Physiotherapy
+          Move Better. Recovery Faster. Live pain Free
         </h1>
 
         <h2>Care in Salem</h2>
@@ -32,9 +43,9 @@ function Hero() {
             📞 Call Now
           </a>
 
-          <a href="#https://wa.me/919345243443" className="btn green">
+          <Link to="/contact" className="btn green">
             📅 Book Appointment
-          </a>
+          </Link>
 
 
           <a
@@ -49,15 +60,15 @@ function Hero() {
 
       </div>
 
-      {/* ✅ FIXED SECTION */}
+      {/* ✅ FIXED SECTION
       <div className="hero-right">
         <img src={aboutImg} alt="Physiotherapy Treatment" />
 
         <div className="floating-card">
-          👥 200+ <br />
+          👥 300+ <br />
           <span>Happy Patients</span>
         </div>
-      </div>
+      </div> */}
 
     </section>
   );

@@ -7,7 +7,7 @@ font-family:Arial, sans-serif;
 
 .contact-header{
 text-align:center;
-background:linear-gradient(90deg,#0ea5e9,#22c55e);
+background:linear-gradient(90deg,#5c2929,#b32b29);
 padding:60px 20px;
 color:white;
 border-radius:10px;
@@ -21,7 +21,6 @@ margin-bottom:10px;
 
 .contact-header p{
 font-size:18px;
-font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 color:#5d5959;
 }
 
@@ -39,7 +38,7 @@ align-items:flex-start;
 .contact-info{
 flex:1;
 min-width:300px;
-font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 
 }
 

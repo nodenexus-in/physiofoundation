@@ -7,12 +7,12 @@
 }
 
 .awards-title{
-  font-size:32px;
-  margin-bottom:40px;
+font-size:32px;
+margin-bottom:40px;
 align-items: center;
 margin-top: 50px;
 text-align:center;
-background:linear-gradient(90deg,#0ea5e9,#22c55e);
+background:linear-gradient(90deg,#5c2929,#b32b29);
 padding:60px 20px;
 color:white;
 border-radius:10px;
@@ -45,6 +45,10 @@ margin-bottom:40px;
   object-fit:cover;
   border-radius:12px;
   display:block;
+border-top-left-radius: 0px;
+border-top-right-radius: 40px;
+border-bottom-left-radius:40px;
+border-bottom-right-radius: 0px;
 }
 
 /* OVERLAY */

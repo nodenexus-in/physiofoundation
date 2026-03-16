@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
+import logo from "../assets/LOGO.jpeg";
 
 function Navbar() {
 
@@ -13,10 +14,12 @@ function Navbar() {
 
         {/* Left Logo Section */}
         <div className="logo-section">
-          <div className="logo-circle">PF</div>
+          <div className="logo-circle">
+            <img src={logo} alt= "physio Foundation Logo" className="footer-logo"/>
+          </div>
           <div className="logo-text">
             <h2>Physio Foundation</h2>
-            <p>Expert Care in Salem</p>
+            <p>Passion as profession</p>
           </div>
         </div>
 
