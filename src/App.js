@@ -1,7 +1,8 @@
 import React from "react";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { useEffect } from "react";
+
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -13,6 +14,9 @@ import AwardsPage from "./pages/AwardsPage";
 import ContactPage from "./pages/ContactPage";
 
 import "./App.css";
+import WhatsAppChat from "./components/WhatsAppChat";
+
+
 
 
 function App() {
@@ -22,7 +26,7 @@ function App() {
   }, []);
   
   return (
-    <Router>
+    <>
       <Helmet>
         <title>Best Physiotherapist in Salem | Physio Foundation</title>
         <meta
@@ -32,6 +36,8 @@ function App() {
       </Helmet>
 
       <Navbar />
+ 
+       <WhatsAppChat />
 
       <Routes>
         <Route path="/" element={<Home />} />
@@ -43,7 +49,7 @@ function App() {
       </Routes>
 
       <Footer />
-    </Router>
+    </>
   );
 }
 

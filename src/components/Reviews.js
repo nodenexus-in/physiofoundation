@@ -10,7 +10,7 @@ function Reviews() {
 
     <div className="reviews-widget">
      <script src="https://elfsightcdn.com/platform.js" async></script>
-      <div class="elfsight-app-a1a4581f-0863-48d9-ae92-a6cf55e17773" data-elfsight-app-lazy></div>
+      <div className="elfsight-app-a1a4581f-0863-48d9-ae92-a6cf55e17773" data-elfsight-app-lazy></div>
     </div>
    
   </div>

@@ -1,7 +1,7 @@
 import { FaFacebookF, FaInstagram, FaYoutubeSquare } from "react-icons/fa";
 // import { MdOutlineLocationOn } from "react-icons/md";
-import { FiPhone } from "react-icons/fi";
-import { BsClock } from "react-icons/bs";
+// import { FiPhone } from "react-icons/fi";
+// import { BsClock } from "react-icons/bs";
 import "./Footer.css";
 import { Link } from "react-router-dom";
 import logos from "../assets/LOGO.jpeg";
@@ -88,20 +88,20 @@ function Footer() {
         <div className="footer-col">
           <h4>Contact Us</h4>
 
-          <div className="contact-item">
+          <div className="contact-item-1">
           
             <span>
               4/122 A Chinnel Viyal Kadu Pallapatti, Salem Tamil Nadu - 636009
             </span>
           </div>
 
-          <div className="contact-item">
-            <FiPhone className="footer-icon" />
+          <div className="contact-item-2">
+            {/* <FiPhone className="footer-icon" /> */}
             <a href="tel:+91 93452 43443">+91 93452 43443</a>
           </div>
 
-          <div className="contact-item">
-            <BsClock className="footer-icon" />
+          <div className="contact-item-3">
+            {/* <BsClock className="footer-icon" /> */}
             <span>Open 24 Hours</span>
           </div>
         </div>

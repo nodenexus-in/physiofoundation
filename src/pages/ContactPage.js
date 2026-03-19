@@ -33,13 +33,49 @@ const sendEmail = (e) => {
 };
 
 
+
+
   return (
     <section className="contact-section">
 
-      <div className="contact-header">
-        <h1>Get In Touch</h1>
-        <p>We're here to help you on your journey to recovery</p>
-      </div>
+                       {/* header section */}
+              
+                    <section className="doctor-hero">
+                <div className="doctor-hero-container">
+              
+                  {/* LEFT CONTENT */}
+                  <div className="hero-left">
+                    <span className="badge-2">🏥 Salem’s Trusted Clinic</span>
+              
+                    <h1>
+                      Get In <span>Touch</span><br />
+                      Physiotherapists
+                    </h1>
+              
+                    <p>
+                      We're here to help you on our journey to recovery
+                    </p>
+              
+                    <div className="stats">
+                      <div>
+                        <h3>5+</h3>
+                        <span>Specialists</span>
+                      </div>
+                      <div>
+                        <h3>15+</h3>
+                        <span>Years Exp</span>
+                      </div>
+                      <div>
+                        <h3>98%</h3>
+                        <span>Satisfaction</span>
+                      </div>
+                    </div>
+                  </div>
+              
+                </div>
+              </section>
+              
+
 
       <div className="contact-container">
 

@@ -3,7 +3,7 @@ import "./Hero.css";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 // import aboutImg from "../assets/About.jpeg";
-import aboutImg from "../assets/physio.jpg";
+
 
 
 function Hero() {
@@ -23,10 +23,11 @@ function Hero() {
           ⭐ 5.0 Rating • 300+ Reviews
         </div>
 
-        <h1>
-          Move Better. Recovery Faster. Live pain Free
-        </h1>
-
+           <h1>
+             Move Better. <span>Recovery Faster. <br />
+              </span>Live pain Free.
+             </h1>
+        
         <h2>Care in Salem</h2>
 
         <h3>Heal Your Pain Naturally</h3>
@@ -36,7 +37,7 @@ function Hero() {
           We have a long-lasting solution near you. We can help you!
         </p>
 
-        <p className="open-hours">🕒 Open 24 Hours</p>
+        <p className="clock">🕒 Open 24 Hours</p>
 
         <div className="hero-buttons">
           <a href="tel:+919345243443" className="btn blue">

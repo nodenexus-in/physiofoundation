@@ -1,9 +1,31 @@
 .contact-section{
 padding:60px 20px;
 font-family:Arial, sans-serif;
+
+
+  background-image:url(../assets/doc.jpg);
+  background-size: cover;
+  background-position: left center;
+  background-repeat: no-repeat;
+
+  position: relative;
+  overflow: hidden;
 }
 
 /* HEADER */
+
+.badge-2 {
+  background: #e4d9d926;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 19px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.states h3 {
+    color:#f9f9f9;
+}
 
 .contact-header{
 text-align:center;
@@ -35,6 +57,7 @@ align-items:flex-start;
 
 /* LEFT SIDE */
 
+.doc
 .contact-info{
 flex:1;
 min-width:300px;
@@ -173,6 +196,9 @@ height:300px;
 
 }
 
+.badge-2 {
+    font-size: 15px;
+}
 /* EXTRA SMALL MOBILE */
 
 @media (max-width:480px){
@@ -180,6 +206,11 @@ height:300px;
 .contact-header h1{
 font-size:26px;
 }
+
+.doctor-hero {
+margin-top: 20px;
+}
+
 
 .contact-form button{
 font-size:14px;

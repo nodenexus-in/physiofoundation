@@ -62,9 +62,10 @@ function About() {
      technology with personalized care to ensure the best outcomes.
     </p> <br />
 
-    <p>
+    
 
       <h3>Why Choose Us: </h3>
+    <p>
       Experienced & certified physiotherapists. 
       Evidence-based treatments
       State-of-the-art physiotherapy equipment

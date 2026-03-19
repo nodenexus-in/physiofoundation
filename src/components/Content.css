@@ -1,7 +1,7 @@
 
 /* Wrapper to center container */
 .mission-wrapper {
-  margin-top: 80px;
+  margin-top: 20px ;
   justify-content: center;
   display: flex;
 
@@ -9,6 +9,7 @@
   background-size: cover;
   background-position: left center;
   background-repeat: no-repeat;
+  
 
 }
 
@@ -21,6 +22,7 @@
   border-radius: 14px;
   border: 1px solid #eee;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
+  min-height: 300px;
 }
 
 /* Heading */

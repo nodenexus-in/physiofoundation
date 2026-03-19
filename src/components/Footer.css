@@ -2,8 +2,9 @@
 
 .footer {
   color: white;
-  padding-top: 60px;
-
+  padding-top: 20px;
+  margin: 0;
+ 
 }
 
 /* Container */
@@ -14,14 +15,17 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
   padding-bottom: 50px;
- 
+  background-color:#001c31;
+  
 }
 
 /* Column */
 
 .footer-col {
-	gap:60px;
-	margin-bottom: 30px;
+	gap:12px;
+  display: flex;
+  flex-direction: column;
+	/* margin-bottom: 30px; */
  
 }
 
@@ -52,9 +56,9 @@ height: auto;
 
 .footer-text h3{
  margin: 0;
- font-size: 40px;
+ font-size: 30px;
  color: white;
- margin-top: 19px;
+ margin-top: 30px;
 }
 
 .logo-circle-2 {
@@ -67,7 +71,7 @@ height: auto;
   align-items: center;
   justify-content: center;
   flex-shrink:0;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .footer-rating {
@@ -81,6 +85,9 @@ height: auto;
 font-size: 16px;
 color: #cbd5e1;
 margin: 90px 0 5px ;
+margin-top: 70px;
+font-style:inherit;
+font-weight: 300;
 }
 
 /* Links */
@@ -174,7 +181,6 @@ font-size: 20px;
 .social-icons {
   display: flex;
   gap: 15px;
-  margin-top: 25px;
   margin-left: 40px;
   font-size: 28px;
 }
@@ -193,7 +199,7 @@ font-size: 20px;
 }
 
 /* Bottom */
-.footer-bottom {
+ .footer-bottom {
   border-top: 1px solid rgba(255,255,255,0.1);
   padding: 20px 5%;
   display: flex;
@@ -201,7 +207,7 @@ font-size: 20px;
   align-items: center;
   font-size: 13px;
   color: #cbd5e1;
-}
+} 
 
 .footer-links span {
   margin-left: 20px;
@@ -236,6 +242,40 @@ font-size: 20px;
 
 
 
+.contact-item-1  span{
+  font-size: 18px;
+  color: rgb(142, 140, 140);
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.contact-item-2 a{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  color: rgb(142, 140, 140);
+  text-decoration: none;
+  
+}
+
+.contact-item-3 span{
+  font-size: 20px;
+  color: rgb(142, 140, 140);
+  text-decoration: none;
+  
+}
+
+.footer-icon {
+  font-size: 18px;
+  gap:20px;
+  color: rgb(142, 140, 140);
+  text-decoration: none;
+}
+
+.footer-rating span{
+  margin-left: -36px;
+}
 
 /* Responsive */
 
@@ -278,7 +318,7 @@ font-size: 20px;
 
 .footer-col p {
   font-size: 14px;
-  top: 20px;
+  top: 30px;
 }
 
   .footer-logo {
@@ -287,6 +327,7 @@ font-size: 20px;
 
   .footer-rating span {
     font-size: 20px;
+    
   }
 
   .footer-bottom {
