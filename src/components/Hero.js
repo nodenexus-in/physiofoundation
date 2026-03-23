@@ -46,7 +46,7 @@ function Hero() {
           <Link to="/contact" className="btn green">
             Book Appointment
           </Link>
-          <a href="https://www.google.com/maps?q=Salem+Tamil+Nadu" target="_blank" rel="noreferrer" className="btn light">Get Directions</a>
+          <a href="https://maps.app.goo.gl/CiPzja6ep3GZXPASA" target="_blank" rel="noreferrer" className="btn light">Get Directions</a>
         </div>
 
         <div className="hero-stats">

@@ -295,7 +295,6 @@
 @media (max-width: 400px) {
   .nav-container { width: 94%; }
   .logo-text h2 { font-size: 13px; }
-  .logo-text p { display: none; }
   .logo-circle,
   .footer-logo {
     width: 34px;

@@ -15,8 +15,8 @@ import award9 from "../assets/award9.jpg";
 const awards = [
   {
     img: award1,
-    title: "Tamil Nadu Business Iconic Award 2024",
-    desc: "Dr. Shankar B — Best Physiotherapy Doctor in Tamil Nadu",
+    title: "Certificate from Dr. KANNAN PUGAZHENDI'S",
+    desc: "Sports And Fitness Center With A Houstic Apporoach ",
   },
   {
     img: award2,
