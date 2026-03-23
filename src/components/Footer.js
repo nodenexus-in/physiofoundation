@@ -1,4 +1,4 @@
-import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
+import {  FaInstagram, FaYoutube } from "react-icons/fa";
 import "./Footer.css";
 import { Link } from "react-router-dom";
 import logos from "../assets/LOGO.jpeg";
@@ -35,7 +35,7 @@ function Footer() {
               pain relief and long-term rehabilitation. We bring healing to your doorstep.
             </p>
             <div className="footer-socials">
-              <a href="#" className="social-btn"><FaFacebookF /></a>
+              {/* <a href="#" className="social-btn"><FaFacebookF /></a> */}
               <a href="https://www.instagram.com/physio_foundation_09" target="_blank" rel="noopener noreferrer" className="social-btn"><FaInstagram /></a>
               <a href="http://www.youtube.com/@Physiofoundation18" target="_blank" rel="noopener noreferrer" className="social-btn"><FaYoutube /></a>
             </div>

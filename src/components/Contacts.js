@@ -11,13 +11,20 @@ function Contacts() {
       </div>
 
       <div className="contact-map">
-        <iframe
-          title="Physio Foundation Location"
-          src="https://www.google.com/maps?q=4/122+A+Chinneri+Vayal+Kadu,+Pallapatti,+Salem,+Tamil+Nadu+63600"
-          loading="lazy"
-          allowFullScreen
-        ></iframe>
+    <iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3907.416703870658!2d78.13405577526657!3d11.664852142178338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3babf1c9a8b58cf3%3A0xb14073ac697de0bc!2sPhysio%20Foundation!5e0!3m2!1sen!2sin!4v1774248449112!5m2!1sen!2sin"
+  width="100%"
+  height="300"
+  style={{ border: 0 }}
+  allowFullScreen=""
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+></iframe>
       </div>
+
+     
+
+        
 
       <div className="contact-bar">
         <div className="contact-bar-item">

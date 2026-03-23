@@ -144,7 +144,7 @@ const sendEmail = (e) => {
       <div className="contact-map">
         <iframe
           title="Physio Foundation Location"
-          src="https://maps.google.com/maps?q=4/122%20A%20Chinneri%20Vayal%20Kadu%20Pallapatti%20Salem&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3907.416703870658!2d78.13405577526657!3d11.664852142178338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3babf1c9a8b58cf3%3A0xb14073ac697de0bc!2sPhysio%20Foundation!5e0!3m2!1sen!2sin!4v1774248449112!5m2!1sen!2sin"
           loading="lazy"
           allowFullScreen
         ></iframe>
