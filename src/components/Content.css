@@ -33,7 +33,7 @@
 
 /* Paragraph */
 .mission-card p {
-  color: #fffefe;
+  color: #000000;
   line-height: 1.8;
   margin-bottom: 20px;
   font-size: 16px;
@@ -43,6 +43,10 @@
 @media (max-width: 992px) {
   .about-cards {
     grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .contact-bar {
+    
   }
 
   .mission-wrapper{

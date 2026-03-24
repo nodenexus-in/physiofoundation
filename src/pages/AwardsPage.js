@@ -58,6 +58,11 @@ const awards = [
     title: "Highwood Entertainments — Tamil Nadu Achiever Award",
     desc: "Celebrating excellence in physiotherapy",
   },
+    {
+    img: award9,
+    title: "Highwood Entertainments — Tamil Nadu Achiever Award",
+    desc: "Celebrating excellence in physiotherapy",
+  },
 ];
 
 function AwardsPage() {
