@@ -134,7 +134,7 @@ const sendEmail = (e) => {
                 <textarea name="message" rows="4" placeholder="Tell us about your pain or condition..."></textarea>
               </div>
               <button type="submit" className="submit-btn">Send Message</button>
-              <a href="https://wa.me/916382871225" target="_blank" rel="noopener noreferrer" className="whatsapp-btn">Chat on WhatsApp instead</a>
+              <a href="https://wa.me/919345243443" target="_blank" rel="noopener noreferrer" className="whatsapp-btn">Chat on WhatsApp instead</a>
             </form>
           </div>
 

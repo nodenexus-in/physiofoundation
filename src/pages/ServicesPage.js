@@ -102,7 +102,7 @@ function Servicespage() {
         <div className="services-hero-container">
 
           <div className="services-left">
-            <span className="svc-badge">⚕️Comprehensive Care</span>
+            <span className="svc-badge">⚕️ Comprehensive Care</span>
             <h1>Our <span>Services</span></h1>
             <p>
               Comprehensive physiotherapy solutions tailored to your recovery —
