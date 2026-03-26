@@ -421,6 +421,15 @@
 ═══════════════════════════════════════════ */
 @media (max-width: 992px) {
   .about-cards { grid-template-columns: repeat(2, 1fr); }
+    .float-bg {
+  position:-webkit-sticky;
+  inset: 0;
+  width: 100%;
+  height: 60%;
+  pointer-events: none;
+  z-index: 0;
+  /* overflow: hidden; */
+}
 }
 
 @media (max-width: 768px) {
@@ -447,8 +456,26 @@
   .about-cards { grid-template-columns: 1fr 1fr; gap: 12px; }
   .cert-row { gap: 8px; }
   .mission-card-1 { padding: 22px 16px; }
+    .float-bg {
+  position:-webkit-sticky;
+  inset: 0;
+  width: 100%;
+  height: 60%;
+  pointer-events: none;
+  z-index: 0;
+  /* overflow: hidden; */
+}
 }
 
 @media (max-width: 400px) {
   .about-cards { grid-template-columns: 1fr; }
+    .float-bg {
+  position:-webkit-sticky;
+  inset: 0;
+  width: 100%;
+  height: 60%;
+  pointer-events: none;
+  z-index: 0;
+  /* overflow: hidden; */
+}
 }
