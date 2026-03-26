@@ -1,55 +1,71 @@
-
-/* Wrapper to center container */
+/* Wrapper */
 .mission-wrapper {
-  margin-top: 20px ;
-  justify-content: center;
   display: flex;
+  justify-content: center;
+  align-items: center;
 
-  background-image:url(../assets/copy.jpg);
-  background-size: cover;
-  background-position: left center;
+  padding: 120px 0px;
+  position: relative;
+
+  /* Background Image */
+  background-image: url("../assets/map.png");
+  background-size: 60%;
+  background-position: center;
   background-repeat: no-repeat;
-  
-
 }
 
-/* White Container Card */
+/* Optional Overlay for better contrast */
+.mission-wrapper::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.6); /* light overlay */
+  z-index: 0;
+}
+
+/* Glass Card */
 .mission-card {
-  background: #ffffff;
+  position: relative;
+  z-index: 1;
+
   max-width: 900px;
-  padding: 40px;
-  background-color: rgb(231, 231, 239);
-  border-radius: 14px;
-  border: 1px solid #eee;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
-  min-height: 300px;
+  padding: 50px 80px; 
+
+
+  /* Glass Effect 🔥 */
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 /* Heading */
 .mission-card h2 {
-  font-size: 28px;
+  font-size: 30px;
   margin-bottom: 20px;
+  color: #111;
 }
 
 /* Paragraph */
 .mission-card p {
-  color: #000000;
+  color: #222;
   line-height: 1.8;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
   font-size: 16px;
 }
 
+
 /* Responsive */
-@media (max-width: 992px) {
-  .about-cards {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  
-  .contact-bar {
-    
+@media (max-width: 768px) {
+  .mission-wrapper {
+    background-size: 90%;
+    padding: 80px 15px;
   }
 
-  .mission-wrapper{
-    margin-top: 20px;
+  .mission-card {
+    padding: 30px;
   }
 }

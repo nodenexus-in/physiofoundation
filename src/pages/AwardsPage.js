@@ -11,6 +11,8 @@ import award6 from "../assets/award6.jpg";
 import award7 from "../assets/award7.jpg";
 import award8 from "../assets/award8.jpg";
 import award9 from "../assets/award9.jpg";
+import award10 from "../assets/award10.jpg";
+
 
 const awards = [
   {
@@ -58,6 +60,12 @@ const awards = [
     title: "Highwood Entertainments — Tamil Nadu Achiever Award",
     desc: "Celebrating excellence in physiotherapy",
   },
+   {
+    img: award10,
+    title: "AWAMI VIVEKANAND NATIONAL SPIRIT AWARDS - 2026",
+    desc: "In recognition of his dedicated service and valuable contribution to the field of physiotherapy, rehabilitation, and healthcare. With over 15 years of professional experience, commitment toward advancing physiotherapy practices, sports rehabilitation, and musculoskeletal health. His integration of physiotherapy with yoga reflects a holistic approach to healing and wellness",
+  },
+
 ];
 
 function AwardsPage() {

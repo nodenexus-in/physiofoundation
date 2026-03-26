@@ -4,6 +4,8 @@ import "./Navbar.css";
 import { NavLink } from "react-router-dom";
 import logo from "../assets/LOGO.jpeg";
 
+const GALLERY_URL = "https://www.google.com/maps/place/Physio+Foundation/@11.6648514,78.1366569,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipOEm0hJBVN4xeqr1nQwInxA2qVIin5Yq4WI64y2!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fp%2FAF1QipOEm0hJBVN4xeqr1nQwInxA2qVIin5Yq4WI64y2%3Dw203-h114-k-no!7i1440!8i810!4m7!3m6!1s0x3babf1c9a8b58cf3:0xb14073ac697de0bc!8m2!3d11.6648469!4d78.1366307!10e5!16s%2Fg%2F11s1ft8qlz?hl=en-GB&entry=ttu&g_ep=EgoyMDI2MDMyMy4xIKXMDSoASAFQAw%3D%3D";
+
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -39,19 +41,25 @@ function Navbar() {
             <NavLink to="/awards" onClick={() => setMenuOpen(false)}>Awards</NavLink>
           </li>
           <li>
+            <a
+              href={GALLERY_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setMenuOpen(false)}
+              className="gallery-link"
+            >
+              Gallery
+            </a>
+          </li>
+          <li>
             <NavLink to="/contact" onClick={() => setMenuOpen(false)}>Contact</NavLink>
           </li>
-          {/* <li className="mobile-buttons">
-            <a href="tel:+916382871225" className="mobile-call" onClick={() => setMenuOpen(false)}>Call Now</a>
-            <a href="https://wa.me/916382871225" className="mobile-whatsapp" onClick={() => setMenuOpen(false)}>WhatsApp</a>
-          </li> */}
         </ul>
 
         <div className="nav-buttons">
           <a href="tel:+916382871225">
             <button className="call-btn">Call Now</button>
           </a>
-          
         </div>
 
       </div>

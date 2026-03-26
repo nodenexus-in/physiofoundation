@@ -19,10 +19,10 @@ const sendEmail = (e) => {
   e.preventDefault();
 
   emailjs.sendForm(
-    "YOUR_SERVICE_ID",
-    "YOUR_TEMPLATE_ID",
+    "service_3rb8xxf",
+    "template_m4l9tmf",
     form.current,
-    "YOUR_PUBLIC_KEY"
+    "HfJwMFj7C8egf_vFN"
   )
   .then(() => {
       alert("Message sent successfully!");
@@ -119,15 +119,15 @@ const sendEmail = (e) => {
             <form ref={form} onSubmit={sendEmail} className="contact-form">
               <div className="form-group">
                 <label>Your Name</label>
-                <input type="text" name="user_name" placeholder="Enter your name" required />
+                <input type="text" name="name" placeholder="Enter your name" required />
               </div>
               <div className="form-group">
                 <label>Phone Number</label>
-                <input type="tel" name="user_phone" placeholder="+91 XXXXX XXXXX" required />
+                <input type="tel" name="phone" placeholder="+91 XXXXX XXXXX" required />
               </div>
               <div className="form-group">
                 <label>Email (optional)</label>
-                <input type="email" name="user_email" placeholder="your.email@example.com" />
+                <input type="email" name="email" placeholder="your.email@example.com" />
               </div>
               <div className="form-group">
                 <label>Your Condition</label>

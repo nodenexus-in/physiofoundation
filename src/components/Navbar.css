@@ -100,6 +100,14 @@
   border-radius: 2px;
 }
 
+/* Gallery external link — small icon to signal it opens in a new tab */
+.nav-links a.gallery-link::after {
+  content: " ↗";
+  font-size: 11px;
+  opacity: 0.6;
+  vertical-align: super;
+}
+
 .nav-buttons {
   display: flex;
   align-items: center;
@@ -228,6 +236,11 @@
     background: rgba(0, 0, 0, 0.08);
   }
 
+  /* Hide the ↗ arrow on mobile — cleaner look inside the red dropdown */
+  .nav-links a.gallery-link::after {
+    display: none;
+  }
+
   .mobile-buttons {
     display: flex !important;
     gap: 10px;
@@ -251,20 +264,6 @@
     text-decoration: none !important;
   }
 
-  .mobile-whatsapp {
-    flex: 1;
-    padding: 9px 10px;
-    background: #25D366;
-    border: none;
-    border-radius: 8px;
-    color: white !important;
-    font-family: 'Outfit', sans-serif;
-    font-size: 13px;
-    font-weight: 600;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none !important;
-  }
 
   .nav-buttons {
     display: none;

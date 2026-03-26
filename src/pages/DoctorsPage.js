@@ -101,10 +101,10 @@ function DoctorsPage() {
           </div>
           <div className="card-body">
             <h2>Dr. B. Shankar</h2>
-            <p className="role">(CEO OF PHYSIO FOUDATION ) <br /> Senior Physiotherapist </p>
+            <p className="role">(CEO OF PHYSIO FOUNDATION ) <br /> Senior Physiotherapist </p>
             <div className="card-divider" />
-            <p><FaBookOpen className="icon green" /><span>BPT, MPT (Sports & Musculoskeletal), Yoga, Ortho</span></p>
-            <p><FaAward className="icon purple" /><span>Sports, Musculoskeletal, Yoga Therapy</span></p>
+            <p><FaBookOpen className="icon green" /><span>BPT, MPT (Neuro, Sports & Musculoskeletal), Yoga, Ortho</span></p>
+            <p><FaAward className="icon purple" /><span>Neuro Rehabilitation, Sports, Musculoskeletal, Yoga Therapy</span></p>
             <p><FaCalendarAlt className="icon orange" /><span>15+ Years Experience</span></p>
             <p className="desc">
               Expert in sports injury rehabilitation, musculoskeletal therapy
@@ -125,7 +125,7 @@ function DoctorsPage() {
             <p className="role">Consultant Women's Physiotherapist</p>
             <div className="card-divider" />
             <p><FaBookOpen className="icon green" /><span>BPT</span></p>
-            <p><FaAward className="icon purple" /><span>Orthopedic & Neuro Rehabilitation</span></p>
+            <p><FaAward className="icon purple" /><span>Cardio Rehabilitation</span></p>
             <p><FaCalendarAlt className="icon orange" /><span>2+ Years Experience</span></p>
             <p className="desc">
               Specialized in orthopedic rehabilitation, neurological
@@ -146,7 +146,7 @@ function DoctorsPage() {
             <p className="role">Consultant Physiotherapist</p>
             <div className="card-divider" />
             <p><FaBookOpen className="icon green" /><span>BPT, MPT (Sports)</span></p>
-            <p><FaAward className="icon purple" /><span>Cardio Rehabilitation</span></p>
+            <p><FaAward className="icon purple" /><span>Orthopedic </span></p>
             <p><FaCalendarAlt className="icon orange" /><span>4+ Years Experience</span></p>
             <p className="desc">
             Focus on diagnosing, treating, and preventing diseases of the heart and blood vessels.</p>
