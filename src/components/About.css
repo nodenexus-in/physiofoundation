@@ -430,8 +430,16 @@
   .mission-card-1 { padding: 28px 22px; }
   .why-list { grid-template-columns: 1fr; }
   .mission-wrapper-1 { padding: 0 4%; margin-top: 48px; }
-  .float-photo { opacity: 20px; }   /* hide on small screens for performance */
-
+  .float-photo { opacity: 20px;  animation: floatUp alternate-reverse infinite;}   /* hide on small screens for performance */
+  .float-bg {
+  position:-webkit-sticky;
+  inset: 0;
+  width: 100%;
+  height: 65%;
+  pointer-events: none;
+  z-index: 0;
+  /* overflow: hidden; */
+}
 
 }
 
