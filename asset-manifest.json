@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/physiofoundation/static/css/main.51f786ff.css",
-    "main.js": "/physiofoundation/static/js/main.86b04f44.js",
+    "main.css": "/physiofoundation/static/css/main.f4096f82.css",
+    "main.js": "/physiofoundation/static/js/main.79214723.js",
     "static/js/453.a34172d4.chunk.js": "/physiofoundation/static/js/453.a34172d4.chunk.js",
     "static/media/review.jpg": "/physiofoundation/static/media/review.90c06f17cf21285e3ca9.jpg",
     "static/media/videoplayback.mp4": "/physiofoundation/static/media/videoplayback.8cdcf872d00b73acfafc.mp4",
@@ -35,6 +35,7 @@
     "static/media/Shankar.jpeg": "/physiofoundation/static/media/Shankar.b08b57d9069745178c1c.jpeg",
     "static/media/award7.jpg": "/physiofoundation/static/media/award7.63457d7d393bd709cae5.jpg",
     "static/media/award7_copy.jpg": "/physiofoundation/static/media/award7_copy.63457d7d393bd709cae5.jpg",
+    "static/media/physio-clinic.jpg": "/physiofoundation/static/media/physio-clinic.5049811d5e34e13ed588.jpg",
     "static/media/award6.jpg": "/physiofoundation/static/media/award6.16a3c8a4a5e4d059e243.jpg",
     "static/media/award6_copy.jpg": "/physiofoundation/static/media/award6_copy.16a3c8a4a5e4d059e243.jpg",
     "static/media/Shalini.jpeg": "/physiofoundation/static/media/Shalini.7a87fbfd98fa5be94f1e.jpeg",
@@ -53,12 +54,12 @@
     "static/media/LOGO.jpeg": "/physiofoundation/static/media/LOGO.3d986705ca3c094d4e3c.jpeg",
     "static/media/icons8.gif": "/physiofoundation/static/media/icons8.857558889caa89d8178f.gif",
     "index.html": "/physiofoundation/index.html",
-    "main.51f786ff.css.map": "/physiofoundation/static/css/main.51f786ff.css.map",
-    "main.86b04f44.js.map": "/physiofoundation/static/js/main.86b04f44.js.map",
+    "main.f4096f82.css.map": "/physiofoundation/static/css/main.f4096f82.css.map",
+    "main.79214723.js.map": "/physiofoundation/static/js/main.79214723.js.map",
     "453.a34172d4.chunk.js.map": "/physiofoundation/static/js/453.a34172d4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.51f786ff.css",
-    "static/js/main.86b04f44.js"
+    "static/css/main.f4096f82.css",
+    "static/js/main.79214723.js"
   ]
 }
