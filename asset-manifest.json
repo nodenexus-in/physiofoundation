@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/physiofoundation/static/css/main.9799ea83.css",
-    "main.js": "/physiofoundation/static/js/main.2cf66247.js",
+    "main.css": "/physiofoundation/static/css/main.56c868eb.css",
+    "main.js": "/physiofoundation/static/js/main.b59844ea.js",
     "static/js/453.a34172d4.chunk.js": "/physiofoundation/static/js/453.a34172d4.chunk.js",
     "static/media/review.jpg": "/physiofoundation/static/media/review.90c06f17cf21285e3ca9.jpg",
     "static/media/videoplayback.mp4": "/physiofoundation/static/media/videoplayback.8cdcf872d00b73acfafc.mp4",
-    "static/media/18544.jpg": "/physiofoundation/static/media/18544.614973da3f989e7736cd.jpg",
-    "static/media/doc.jpg": "/physiofoundation/static/media/doc.07d0e19f4020a78fa19f.jpg",
-    "static/media/doc-copy.jpg": "/physiofoundation/static/media/doc-copy.6d1d03b19abcfcd44626.jpg",
     "static/media/award4.jpg": "/physiofoundation/static/media/award4.2c32616432d47c06de9b.jpg",
     "static/media/award4_copy.jpg": "/physiofoundation/static/media/award4_copy.2c32616432d47c06de9b.jpg",
     "static/media/copy.png": "/physiofoundation/static/media/copy.67cffd311e6f2603fe67.png",
+    "static/media/doc-copy.jpg": "/physiofoundation/static/media/doc-copy.2fd06ff947f8b56ff540.jpg",
+    "static/media/doc.jpg": "/physiofoundation/static/media/doc.20ac7ccc1bf45c27254f.jpg",
+    "static/media/185441.png": "/physiofoundation/static/media/185441.e172b5dc3c31635cb630.png",
     "static/media/map.png": "/physiofoundation/static/media/map.5dd5a0627430519b9ef7.png",
     "static/media/Kiru.jpeg": "/physiofoundation/static/media/Kiru.3f20f4c371e6d10f6b35.jpeg",
     "static/media/award1.jpg": "/physiofoundation/static/media/award1.e31c5a8c5ecf9fec905a.jpg",
@@ -54,12 +54,12 @@
     "static/media/LOGO.jpeg": "/physiofoundation/static/media/LOGO.3d986705ca3c094d4e3c.jpeg",
     "static/media/icons8.gif": "/physiofoundation/static/media/icons8.857558889caa89d8178f.gif",
     "index.html": "/physiofoundation/index.html",
-    "main.9799ea83.css.map": "/physiofoundation/static/css/main.9799ea83.css.map",
-    "main.2cf66247.js.map": "/physiofoundation/static/js/main.2cf66247.js.map",
+    "main.56c868eb.css.map": "/physiofoundation/static/css/main.56c868eb.css.map",
+    "main.b59844ea.js.map": "/physiofoundation/static/js/main.b59844ea.js.map",
     "453.a34172d4.chunk.js.map": "/physiofoundation/static/js/453.a34172d4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9799ea83.css",
-    "static/js/main.2cf66247.js"
+    "static/css/main.56c868eb.css",
+    "static/js/main.b59844ea.js"
   ]
 }
