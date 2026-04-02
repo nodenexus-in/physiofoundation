@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/physiofoundation/static/css/main.f7840cd4.css",
-    "main.js": "/physiofoundation/static/js/main.129e6a93.js",
+    "main.js": "/physiofoundation/static/js/main.6b9b7756.js",
     "static/js/453.a34172d4.chunk.js": "/physiofoundation/static/js/453.a34172d4.chunk.js",
     "static/media/review.jpg": "/physiofoundation/static/media/review.90c06f17cf21285e3ca9.jpg",
     "static/media/videoplayback.mp4": "/physiofoundation/static/media/videoplayback.8cdcf872d00b73acfafc.mp4",
@@ -56,11 +56,11 @@
     "static/media/icons8.gif": "/physiofoundation/static/media/icons8.857558889caa89d8178f.gif",
     "index.html": "/physiofoundation/index.html",
     "main.f7840cd4.css.map": "/physiofoundation/static/css/main.f7840cd4.css.map",
-    "main.129e6a93.js.map": "/physiofoundation/static/js/main.129e6a93.js.map",
+    "main.6b9b7756.js.map": "/physiofoundation/static/js/main.6b9b7756.js.map",
     "453.a34172d4.chunk.js.map": "/physiofoundation/static/js/453.a34172d4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f7840cd4.css",
-    "static/js/main.129e6a93.js"
+    "static/js/main.6b9b7756.js"
   ]
 }
