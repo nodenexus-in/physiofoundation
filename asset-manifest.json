@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/physiofoundation/static/css/main.f7840cd4.css",
-    "main.js": "/physiofoundation/static/js/main.acb4c734.js",
+    "main.js": "/physiofoundation/static/js/main.129e6a93.js",
     "static/js/453.a34172d4.chunk.js": "/physiofoundation/static/js/453.a34172d4.chunk.js",
     "static/media/review.jpg": "/physiofoundation/static/media/review.90c06f17cf21285e3ca9.jpg",
     "static/media/videoplayback.mp4": "/physiofoundation/static/media/videoplayback.8cdcf872d00b73acfafc.mp4",
@@ -29,6 +29,7 @@
     "static/media/award10_copy.jpg": "/physiofoundation/static/media/award10_copy.d703938e74c444cb797e.jpg",
     "static/media/award9.jpg": "/physiofoundation/static/media/award9.20439f89e67e0d059b7a.jpg",
     "static/media/award9_copy.jpg": "/physiofoundation/static/media/award9_copy.20439f89e67e0d059b7a.jpg",
+    "static/media/sport2.jpg": "/physiofoundation/static/media/sport2.5f1aab8bb424ab2a6b80.jpg",
     "static/media/homevisit.jpg": "/physiofoundation/static/media/homevisit.8d701f1c76ff9a69abd0.jpg",
     "static/media/award5.jpg": "/physiofoundation/static/media/award5.8c09e4c9179c47d32298.jpg",
     "static/media/award5_copy.jpg": "/physiofoundation/static/media/award5_copy.8c09e4c9179c47d32298.jpg",
@@ -55,11 +56,11 @@
     "static/media/icons8.gif": "/physiofoundation/static/media/icons8.857558889caa89d8178f.gif",
     "index.html": "/physiofoundation/index.html",
     "main.f7840cd4.css.map": "/physiofoundation/static/css/main.f7840cd4.css.map",
-    "main.acb4c734.js.map": "/physiofoundation/static/js/main.acb4c734.js.map",
+    "main.129e6a93.js.map": "/physiofoundation/static/js/main.129e6a93.js.map",
     "453.a34172d4.chunk.js.map": "/physiofoundation/static/js/453.a34172d4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f7840cd4.css",
-    "static/js/main.acb4c734.js"
+    "static/js/main.129e6a93.js"
   ]
 }
