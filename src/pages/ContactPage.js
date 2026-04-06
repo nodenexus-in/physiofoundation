@@ -56,7 +56,7 @@ const sendEmail = (e) => {
                       We're here to help you on our journey to recovery
                     </p>
               
-                    <div className="stats">
+                    <div className="stats-1">
                       <div>
                         <h3>5+</h3>
                         <span>Specialists</span>

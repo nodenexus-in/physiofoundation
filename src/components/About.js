@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./About.css";
 import { FaMedal, FaClock, FaHeart, FaCheckCircle } from "react-icons/fa";
 
+import image from "../assets/physio-clinic.jpg";
 
 import award2 from "../assets/gallery/award2_copy.jpg";
 import award3 from "../assets/gallery/award3_copy.jpg";
@@ -142,6 +143,10 @@ function About() {
             pain management, and functional recovery. Our certified physiotherapists combine modern
             technology with personalized care to ensure the best outcomes for every patient.
           </p>
+                   
+          <div className="about-image">
+            <img src={image} alt="physio clinic" /> 
+          </div>
 
           {/* Indian Certification Badges */}
           <div className="cert-row">

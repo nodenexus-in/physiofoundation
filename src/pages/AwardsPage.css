@@ -20,7 +20,7 @@
    ════════════════════════════════════════ */
 
 .awards-hero {
-  background: linear-gradient(120deg, #622727 0%, #b32b29 60%, #c94040 100%);
+  background:linear-gradient(90deg,#29425c,#295eb3);
   margin: 0 16px 48px;
   border-radius: 0 0 20px 20px;
   overflow: hidden;
@@ -221,7 +221,7 @@
 }
 
 /* Overlay — slides up from bottom on hover */
-.award-overlay {
+ .award-overlay {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -235,7 +235,7 @@
   padding: 48px 20px 20px;
   transform: translateY(40%);
   transition: transform 0.35s ease;
-}
+} 
 
 .award-card:hover .award-overlay {
   transform: translateY(0);
@@ -327,7 +327,7 @@
 
   .awards-left h1 { font-size: 22px; }
   .awards-left p  { font-size: 13px; }
-  .awd-badge      { font-size: 15px; padding: 4px 11px; }
+  .awd-badge      { font-size: 08px; padding: 4px 11px; }
 
   .awards-tags span { font-size: 11px; padding: 4px 10px; }
 

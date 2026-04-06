@@ -5,13 +5,32 @@
 ═══════════════════════════════════════════ */
 .about {
   padding: 0 0 80px;
-  
+  margin-top: 40px;
   position: relative;
   z-index: 3;
   font-family: 'Outfit', sans-serif;
   overflow: hidden; 
   background: #dfdbdb44;
+
+
+
 }
+
+.about-image {
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+   margin-bottom: 30px;
+   margin-top: -20px;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 350px; /* control size */
+  height: auto;
+  border-radius: 12px;
+}
+
 
 /* ═══════════════════════════════════════════
    FLOATING AWARD PHOTOS BACKGROUND
@@ -113,8 +132,9 @@
   align-items: center;
   gap: 6px;
   background: rgba(200, 25, 30, 0.18);
-  border: 1px solid rgba(200, 25, 30, 0.50);
-  color: #ff6b6b;
+  border: 1px solid rgba(25, 75, 200, 0.5);
+  /* color: #ff6b6b; */
+  color: #02114b;
   font-size: 12px;
   font-weight: 600;
   padding: 5px 14px;
@@ -131,7 +151,8 @@
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 8px;
-  color: #840404;
+  /* color: #840404; */
+  color: #02114b;
 }
 
 .about-subtitle {
@@ -167,7 +188,8 @@
 .about-card:hover {
   transform: translateY(-8px);
   background: rgba(255, 255, 255, 0.10);
-  border-color: rgba(200, 25, 30, 0.50);
+  /* border-color: rgba(200, 25, 30, 0.50);  */
+   border-color: rgba(8, 49, 119, 0.5);
   box-shadow: 0 14px 36px rgba(200, 25, 30, 0.18);
 }
 
@@ -399,11 +421,13 @@
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  color: #ff6b6b;
+  /* color: #ff6b6b; */
+  color: rgb(32, 72, 174);
   font-weight: 600;
   font-size: 14px;
   text-decoration: none;
-  border: 1.5px solid #C8191E;
+  /* border: 1.5px solid #C8191E; */
+  border: 1.5px solid #52619f;
   padding: 10px 24px;
   border-radius: 8px;
   transition: all 0.2s ease;
@@ -412,7 +436,8 @@
 }
 
 .meet-team-btn:hover {
-  background: #C8191E;
+  /* background: #C8191E; */
+  background: rgb(3, 27, 67);
   color: #ffffff;
 }
 

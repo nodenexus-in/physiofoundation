@@ -14,4 +14,8 @@ root.render(
   </React.StrictMode>
 );
 
-reportWebVitals();
+window.addEventListener('error', e => {
+  if (e.message.includes('ResizeObserver')) {
+    e.stopImmediatePropagation();
+  }
+});

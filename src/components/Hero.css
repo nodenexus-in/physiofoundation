@@ -3,7 +3,7 @@
 :root {
   --red:        #C8191E;
   --red-dark:   #9B1015;
-  --orange:     #F0921A;
+  --Gold:     #d1a806;
   --dark:       #1C0A0A;
   --muted:      #6B4A4A;
   --green:      #1A7A44;
@@ -24,14 +24,16 @@
   justify-content: space-between;
   gap: 40px;
   
-  height: 820px;
-  padding: 80px 5%;
+  height: 863px; 
+  padding: 80px  ;
   margin-top: -110px;
   padding-top: 130px;
 
-  background:
-    linear-gradient(135deg, rgba(70, 0, 2, 0.795) 0%, rgba(140, 10, 14, 0.894) 40%, rgba(80, 0, 5, 0.772) 100%),
-    url(../assets/doc.jpg);
+
+   background: 
+    /* linear-gradient(135deg, rgba(70, 0, 2, 0.795) 0%, rgba(140, 10, 14, 0.894) 40%, rgba(80, 0, 5, 0.772) 100%),  */
+      linear-gradient(135deg, rgba(5, 56, 174, 0.795) 0%, rgba(0, 44, 114, 0.894) 40%, rgba(3, 28, 82, 0.772) 100%), 
+      url(../assets/doc.jpg);   
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -46,11 +48,19 @@
   content: "";
   position: absolute;
   inset: 0;
-  background:
-    radial-gradient(ellipse 60% 80% at 20% 50%, rgba(200,25,30,0.30) 0%, transparent 60%),
+  /* background:
+    radial-gradient(ellipse 60% 80% at 20% 50%, rgba(200, 25, 54, 0.3) 0%, transparent 60%),
     radial-gradient(ellipse 40% 60% at 80% 20%, rgba(255,255,255,0.04) 0%, transparent 50%);
+  */
+
+     background:
+    radial-gradient(ellipse 60% 80% at 20% 50%, rgba(25, 89, 200, 0.3) 0%, transparent 60%),
+    radial-gradient(ellipse 40% 60% at 80% 20%, rgba(255, 255, 255, 0.04) 0%, transparent 50%);
   z-index: 1;
+
+
   pointer-events: none;
+  
 }
 
 /* Dot grid texture */
@@ -139,7 +149,7 @@
   font-size: 26px;
   font-weight: 600;
   font-style: italic;
-  color: var(--orange);
+  color: var(--Gold);
   margin-bottom: 14px;
 }
 

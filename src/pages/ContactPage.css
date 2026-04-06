@@ -18,12 +18,12 @@ font-family:Arial, sans-serif;
    ════════════════════════════════════════ */
 
 .doctor-hero-2 {
-  background:linear-gradient(90deg,#5c2929,#b32b29);
-  margin: 0 16px 48px;
+  background:linear-gradient(90deg,#29425c,#295eb3);
+  margin: 0 6px 48px;
   border-radius: 0 0 20px 20px;
   overflow: hidden;
   position: relative;
-  margin-top: 10px;
+  margin-top: 10px; 
 }
 
 .doctor-hero-2::before {
@@ -63,13 +63,45 @@ font-family:Arial, sans-serif;
   margin-bottom: 18px;
 }
 
-.states h3 {
+/* Stats row */
+.stats-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+}
+
+.stats-1 > div {
+  text-align: center;
+  padding: 0 28px;
+  border-right: 1px solid rgba(255,255,255,0.18);
+}
+
+.stats-1 > div:first-child { padding-left: 0; }
+.stats-1 > div:last-child  { border-right: none; }
+
+.stats-1 h3 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1;
+  margin-bottom: 5px;
+}
+
+.stats-1 span {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.5);
+}
+
+.stats-1 h3 {
     color:#f9f9f9;
 }
 
 .contact-header{
 text-align:center;
-background:linear-gradient(90deg,#5c2929,#b32b29);
+background:linear-gradient(90deg,#29425c,#295eb3);
 padding:60px 20px;
 color:white;
 border-radius:10px;
@@ -119,7 +151,7 @@ color:#5d5959;
 .info-box {
   background: white;
   border: 1px solid #fcd5d5;
-  border-left: 4px solid #C8191E;
+  border-left: 4px solid #197fc8;
   border-radius: 10px;
   padding: 36px 28px;
   margin-bottom: 12px;
@@ -143,7 +175,7 @@ color:#5d5959;
 .info-label {
   font-size: 16px;
   font-weight: 600;
-  color: #C8191E;
+  color: #1985c8;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin: 0 0 5px;
@@ -172,7 +204,7 @@ color:#5d5959;
 .info-link {
   font-size: 13px;
   font-weight: 600;
-  color: #C8191E;
+  color: #1979c8;
   text-decoration: none;
 }
 
@@ -190,7 +222,7 @@ color:#5d5959;
 }
 
 .info-phone:hover {
-  color: #C8191E;
+  color: #196bc8;
 }
 
 .live-dot {
@@ -210,7 +242,7 @@ color:#5d5959;
 /* ── Form side ── */
 .contact-form-wrapper {
   background: white;
-  border: 1px solid #fcd5d5;
+  border: 1px solid #d0d0d0; 
   border-radius: 14px;
   padding: 48px;
 }
@@ -246,7 +278,7 @@ color:#5d5959;
 .form-group input,
 .form-group textarea {
   padding: 11px 14px;
-  border: 1px solid #fcd5d5;
+  border: 1px solid #8e8e8e;
   border-radius: 8px;
   background: #fff8f7;
   font-family: 'Outfit', sans-serif;
@@ -260,7 +292,7 @@ color:#5d5959;
 
 .form-group input:focus,
 .form-group textarea:focus {
-  border-color: #C8191E;
+  border-color: #196bc8;
 }
 
 .form-group textarea {
@@ -270,7 +302,7 @@ color:#5d5959;
 
 .submit-btn {
   padding: 13px;
-  background: #C8191E;
+  background: #a10000;
   color: white;
   border: none;
   border-radius: 9px;
@@ -282,7 +314,7 @@ color:#5d5959;
 }
 
 .submit-btn:hover {
-  background: #9B1015;
+  background: #006408;
   transform: translateY(-1px);
 }
 
@@ -332,8 +364,17 @@ color:#5d5959;
 }
 
 @media (max-width: 768px) {
+
+  .doctor-hero-containers {
+    margin-left: -20px;
+  }
+  
+
   .contact-hero {
     padding: 44px 0;
+  }
+  .doctor-hero-2 {
+    margin-top: -30px;
   }
 
   .contact-hero h1 {
@@ -373,6 +414,33 @@ color:#5d5959;
   .contact-form-wrapper {
     padding: 20px;
   }
+
+  .badge-2 {
+   
+     font-size:8px;
+  }
+  
+  
+  .stats-1 {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .stats-1 > div {
+    flex: 1;
+    padding: 0 10px;
+  }
+
+  .stats-1 h3   { font-size: 20px; }
+  .stats-1 span { font-size: 7px; letter-spacing: 1px; }
+
+  /* .hero-left h1 {
+    margin-left: -20px;
+  }
+
+  .hero-left p{
+    margin-left: -20px;
+  } */
 }
 
 @media (max-width: 480px) {
@@ -380,11 +448,11 @@ color:#5d5959;
     font-size: 24px;
   }
 
-  .contact-stats {
+  .contact-stats-1 {
     gap: 14px;
   }
 
-  .contact-stat h3 {
+  .contact-stats-1 h3 {
     font-size: 18px;
   }
 

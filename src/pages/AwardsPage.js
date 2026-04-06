@@ -11,7 +11,7 @@ import award6 from "../assets/award6.jpg";
 import award7 from "../assets/award7.jpg";
 import award8 from "../assets/award8.jpg";
 import award9 from "../assets/award9.jpg";
-import award10 from "../assets/award10.jpg";
+import award10 from "../assets/awards10.jpg";
 
 
 const awards = [

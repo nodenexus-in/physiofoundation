@@ -10,7 +10,7 @@
   font-family: 'DM Sans', Arial, sans-serif;
   background: #f4f6f9;
   min-height: 100vh;
-  background-image:url(../assets/copy.jpg) ;
+  background-image:url(../assets/copy.png) ;
 }
 
 
@@ -19,7 +19,7 @@
    ════════════════════════════════════════ */
 
 .doctor-hero {
-    background:linear-gradient(90deg,#5c2929,#b32b29);
+    background:linear-gradient(90deg,#29425c,#295eb3);
   margin: 0 16px 48px;
   border-radius: 0 0 20px 20px;
   overflow: hidden;
@@ -288,7 +288,7 @@
 .card-body .role {
   font-size: 11.5px;
   font-weight: 600;
-  color: #b32b29;
+  color: #0046c8;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   line-height: 1.4;

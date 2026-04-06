@@ -3,7 +3,7 @@
   /* margin-top: 100px; */
   padding: 100px 0px;
   /* background: #f9fbfd; */
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 
   background-image:url(../assets/review.jpg);
   background-size:cover;
@@ -120,9 +120,17 @@ transform: translateY(-5px);
 
 
 @media (max-width: 992px) {
+
+  .reviews-section {   background-image:url(../assets/review.jpg); background-size:auto;
+  background-position:center; 
+  background-repeat: no-repeat; }
+
   .reviews-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  
+
 }
 
 @media (max-width: 600px) {

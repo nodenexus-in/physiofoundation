@@ -1,71 +1,201 @@
-/* Wrapper */
+/* ── Wrapper ── */
 .mission-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  padding: 120px 0px;
+  padding: 120px 20px;
   position: relative;
-
-  /* Background Image */
   background-image: url("../assets/map.png");
   background-size: 60%;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-/* Optional Overlay for better contrast */
 .mission-wrapper::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(255, 255, 255, 0.6); /* light overlay */
+  background: rgba(255, 255, 255, 0.6);
   z-index: 0;
 }
 
-/* Glass Card */
+/* ── Glass Card ── */
 .mission-card {
   position: relative;
   z-index: 1;
-
-  max-width: 900px;
-  padding: 50px 80px; 
-
-
-  /* Glass Effect 🔥 */
+  max-width: 960px;
+  width: 100%;
+  padding: 56px 72px;
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);
-
-  border-radius: 16px;
+  border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.3);
-
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
-/* Heading */
-.mission-card h2 {
-  font-size: 30px;
-  margin-bottom: 20px;
-  color: #111;
+/* ── Tag ── */
+.mission-tag {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #993C1D;
+  background: #FAECE7;
+  padding: 5px 14px;
+  border-radius: 100px;
+  margin-bottom: 16px;
 }
 
-/* Paragraph */
-.mission-card p {
-  color: #222;
-  line-height: 1.8;
-  margin-bottom: 18px;
+/* ── Heading ── */
+.mission-card h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #111;
+  line-height: 1.25;
+}
+
+.mission-accent {
+  color: #D85A30;
+}
+
+/* ── Paragraphs ── */
+.mission-card .mission-line p {
+  color: #333;
+  line-height: 1.85;
+  margin-bottom: 14px;
   font-size: 16px;
 }
 
+/* ── Stats Row ── */
+.mission-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin: 32px 0;
+  padding: 24px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.07);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}
 
-/* Responsive */
+.mission-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+}
+
+.stat-num-1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #D85A30;
+  line-height: 1;
+}
+
+.stat-label-1 {
+  font-size: 12.5px;
+  color: #666;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+/* ── Pillars Grid ── */
+.mission-pillars {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-top: 28px;
+}
+
+.mission-pillar {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 14px;
+  padding: 18px 20px;
+  backdrop-filter: blur(6px);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.mission-pillar:hover {
+  box-shadow: 0 6px 20px rgba(216, 90, 48, 0.12);
+  transform: translateY(-2px);
+}
+
+.pillar-icon {
+  width: 42px;
+  height: 42px;
+  min-width: 42px;
+  border-radius: 10px;
+  background: #FAECE7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #D85A30;
+}
+
+.pillar-icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.mission-pillar h4 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #111;
+  margin: 0 0 5px;
+}
+
+.mission-pillar p {
+  font-size: 13.5px;
+  color: #555;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ── Responsive ── */
+@media (max-width: 900px) {
+  .mission-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (max-width: 768px) {
   .mission-wrapper {
-    background-size: 90%;
+    background-size: 200%;
     padding: 80px 15px;
+
+
+
   }
 
   .mission-card {
-    padding: 30px;
+    padding: 32px 24px;
+  }
+
+  .mission-card h2 { 
+    font-size: 26px;
+  }
+
+  .mission-pillars {
+    grid-template-columns: 1fr;
+  }
+
+  .mission-stats {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+
+
+   
+  .mission-stats {
+    grid-template-columns: repeat(2, 1fr);
   }
 }

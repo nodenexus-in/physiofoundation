@@ -10,6 +10,7 @@ import electro from "../assets/Electro.jpg";
 import ortho from "../assets/orthos.jpg";
 import manual from "../assets/Manul.jpg";
 import neuro from "../assets/neuro.jpg";
+import sport2 from "../assets/sport2.jpg";
 import home from "../assets/homevisit.jpg";
 
 const services = [
@@ -19,7 +20,7 @@ const services = [
     title: "Back & Spine Therapy",
     desc: "Slip disc, spondylosis, postural correction.",
     badge: "Spine",
-    link: "https://en.wikipedia.org/wiki/Spinal_disease",
+    link: "https://www.google.com/search?q=Back+%26+Spine+Therapy&oq=Back+%26+Spine+Therapy&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDE2NTlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8",
   },
   {
     img: sports,
@@ -35,7 +36,7 @@ const services = [
     title: "Post-Surgery Rehabilitation",
     desc: "Knee replacement, ligament reconstruction and surgical recovery.",
     badge: "Surgery",
-    link: "https://en.wikipedia.org/wiki/Physical_therapy",
+    link: "https://www.google.com/search?q=Post-Surgery+Rehabilitation&sca_esv=918d0965cae38051&sxsrf=ANbL-n6a5cJcklkFrU8YvMFxJNt5Zg0RTQ%3A1774878420693&ei=1H7Kab77KaCcseMP-qSgWA&biw=792&bih=815&ved=0ahUKEwi-taOu4ceTAxUgTmwGHXoSCAsQ4dUDCBE&uact=5&oq=Post-Surgery+Rehabilitation&gs_lp=Egxnd3Mtd2l6LXNlcnAiG1Bvc3QtU3VyZ2VyeSBSZWhhYmlsaXRhdGlvbjIFEAAYgAQyBhAAGBYYHjIIEAAYFhgeGAoyBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHkicB1AAWABwAHgBkAEAmAGHAaABhwGqAQMwLjG4AQPIAQD4AQL4AQGYAgGgApIBmAMAkgcDMC4xoAeXCLIHAzAuMbgHkgHCBwMzLTHIBwiACAE&sclient=gws-wiz-serp",
   },
   {
     img: ortho,
@@ -43,7 +44,7 @@ const services = [
     title: "Orthopedic Physiotherapy",
     desc: "Treatment for bone, muscle and joint conditions.",
     badge: "Orthopedic",
-    link: "https://en.wikipedia.org/wiki/Physical_therapy",
+    link: "https://www.google.com/search?q=orthopedic+physiotherapy+&sca_esv=918d0965cae38051&biw=792&bih=815&sxsrf=ANbL-n6fOnEk0bSOE7iG_j4Caw4oyOS2xw%3A1774878713841&ei=-X_KaefxMtWfseMP57vmgQk&ved=0ahUKEwin0oe64seTAxXVT2wGHeedOZAQ4dUDCBE&uact=5&oq=orthopedic+physiotherapy+&gs_lp=Egxnd3Mtd2l6LXNlcnAiGW9ydGhvcGVkaWMgcGh5c2lvdGhlcmFweSAyBRAAGIAEMgsQABiABBiKBRiRAjIFEAAYgAQyBRAAGIAEMgUQABiABDILEAAYgAQYigUYkQIyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESJizAVDrBFjrBHABeACQAQCYAX-gAdgBqgEDMS4xuAEDyAEA-AEBmAICoAKKAcICChAAGEcY1gQYsAPCAg0QABhHGNYEGMkDGLADwgIOEAAYgAQYigUYkgMYsAOYAwCIBgGQBgqSBwMxLjGgB9kMsgcDMC4xuAeEAcIHAzItMsgHCYAIAQ&sclient=gws-wiz-serp",
   },
   {
     video: neuroVideo,
@@ -77,6 +78,14 @@ const services = [
     desc: "Non-invasive pain relief techniques for long-term conditions.",
     badge: "Pain",
     link: "https://en.wikipedia.org/wiki/Chronic_pain",
+  },
+    {
+    img: sport2,
+    alt: "Chronic Pain",
+    title: "Sports On field medical support",
+    desc: "On-field sports medical support provides immediate emergency care, injury assessment, and stabilization during training or competitions",
+    badge: "Sports Collab",
+    link: "https://en.wikipedia.org/wiki/Sports_medicine",
   },
   {
     img: home,

@@ -6,11 +6,11 @@ function Reviews() {
    <section className="reviews-section">
   <div className="reviews-container">
     
-    <h2 className="reviews-title">What Our Patients Say</h2>
+    {/* <h2 className="reviews-title">What Our Patients Say</h2> */}
 
     <div className="reviews-widget">
      <script src="https://elfsightcdn.com/platform.js" async></script>
-      <div className="elfsight-app-a1a4581f-0863-48d9-ae92-a6cf55e17773" data-elfsight-app-lazy></div>
+      <div className="elfsight-app-add8fec4-cc54-4350-949e-0069550cef2f" data-elfsight-app-lazy></div>
     </div>
    
   </div>
