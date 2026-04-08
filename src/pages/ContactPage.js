@@ -19,10 +19,10 @@ const sendEmail = (e) => {
   e.preventDefault();
 
   emailjs.sendForm(
-    "service_3rb8xxf",
-    "template_m4l9tmf",
+    "service_kv8cpzn",
+    "template_anlk1dc",
     form.current,
-    "HfJwMFj7C8egf_vFN"
+    "w88f0Rqky_8pwAK3t"
   )
   .then(() => {
       alert("Message sent successfully!");
