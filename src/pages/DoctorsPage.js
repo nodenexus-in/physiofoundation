@@ -74,7 +74,7 @@ function DoctorsPage() {
         <div className="card">
           <div className="card-img-wrap">
             <img src={kathir} alt="Dr Kathiravan" className="doctor-img" />
-            <span className="card-exp-badge">35+ Yrs</span>
+            <span className="card-exp-badge">25+ Yrs</span>
             <span className="card-specialty-badge">Founder</span>
           </div>
           <div className="card-body">
