@@ -69,16 +69,4 @@ function Navbar() {
 }
 
 
-
-     #AFM works on the principle of abrasive-leden semi-solid mediam flow under the high pressure flow
-     # this media contains the Ap (SiC, Al3 o3, )
-    # abrasive particals acts as thousands of micro cutting MdEdgesensorHigh
-    # matyerial is removed by micro cutting, micropluging & micro-shearing 
-
-
-    # high fiishing occurs at area of high flow Velocity.Al3
-
-    edges - internal. fillets
-    burr - restrictive passages.
-
 export default Navbar;
