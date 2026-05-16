@@ -11,8 +11,8 @@ import award6 from "../assets/award6.jpg";
 import award7 from "../assets/award7.jpg";
 import award8 from "../assets/award8.jpg";
 import award9 from "../assets/award9.jpg";
-import award10 from "../assets/awards10.jpg";
-
+import award10 from "../assets/award10.jpg";
+import award11 from "../assets/awards.11.jpg";
 
 const awards = [
   {
@@ -64,6 +64,11 @@ const awards = [
     img: award10,
     title: "AWAMI VIVEKANAND NATIONAL SPIRIT AWARDS - 2026",
     desc: "In recognition of his dedicated service and valuable contribution to the field of physiotherapy, rehabilitation, and healthcare. With over 15 years of professional experience, commitment toward advancing physiotherapy practices, sports rehabilitation, and musculoskeletal health. His integration of physiotherapy with yoga reflects a holistic approach to healing and wellness",
+  },
+   {
+    img: award11,
+    title: "DR. A. P. J.ABDUL KALAM GLOBAL ICON AWARD- 2026",
+    desc: "Presenting this certificate of appreciation Dr.Shankar for outstandig contribution as Excellent Doctor. your dedication inspires as all"
   },
 
 ];
